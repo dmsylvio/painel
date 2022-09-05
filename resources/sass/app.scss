@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+// Default Theme
+//----------------------------------
+
+@import "themes.scss";
+
+// Base Components
+//----------------------------------
+
+@import "components/animation.scss";
+
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+}
+
+html {
+    height: -webkit-fill-available;
+}
+
+.h-screen-ios {
+    height: -webkit-fill-available;
+}
